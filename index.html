@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>kurakani</title>
+    <link rel="stylesheet" href="darkstyle.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1><img src="logo1.png" height="150px"></h1>
+      <form method="get" action = "">
+        <div class="txt_field">
+          <input type="text" required placeholder="Email">
+          <span></span>
+        </div>
+        <div class="txt_field">
+          <input type="password" required placeholder="Password">
+          <span></span>
+        </div>
+        <div class="signup">
+          <p><B>Don't have an account?<span onclick = "handleClick()"> Sign Up</span></B></p>
+        <input type="submit" value="Login">
+        </div>
+      </form>
+    </div>
+  </body>
+  <script>
+    const handleClick = ()=>{
+      document.location = "signup.html"
+    }
+  </script>
+</html>

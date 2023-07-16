@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+  height: 100vh;
+  overflow: hidden;
+}
+.center{
+  /* border-style: solid; */
+  /* border-width: 1.5px 1.5px 1.5px 1.5px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 10px 10px 18px 15px rgba(0,0,0,0.05);
+  padding-bottom: 40px;
+}
+.center h1{
+  text-align: center;
+  padding: 5px 0; 
+}
+.center form{
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+form .txt_field{
+  position: relative;
+  margin: 20px 0;
+  border-radius: 8px;
+  background: #EBEBEB;
+}
+.txt_field input{
+  width: 100%;
+  border: none;
+  height: 40px;
+  font-size: 16px;
+  background: none;
+  outline: none;
+  padding-left: 16px;
+  opacity: 1;
+}
+
+.submit{
+  display:flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+}
+
+input[type="submit"]{
+  width: 35%;
+  height: 40px;
+  border: 1px solid;
+  background: #FC5C34;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+input[type="submit"]:hover{
+  border-color: #FC5C34;
+  transition: .5s;
+}
+.signup{
+  display: flex;
+}
+
+.signup p{
+  margin-top: 20px;
+  font-size: 10px;
+  padding-right: 50px;
+}
+
+.signup span{
+  color: #FC5C34;
+  cursor: pointer;
+}
+
+.submit {
+  padding-right: 18px;
+}
